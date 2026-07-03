@@ -1,0 +1,153 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* Main container */
+main {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+/* Header */
+header {
+    background: #12395d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #444;
+}
+
+/* Page title */
+h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* Two-column layout */
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card h3 {
+    background: #12395d;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* About section */
+.about {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about img {
+    width: 150px;
+    height: auto;
+}
+
+/* Country section */
+.country {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.country img {
+    width: 150px;
+    border: 1px solid #999;
+}
+
+.country h4 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Resources */
+.resources {
+    padding: 20px;
+}
+
+.resources ul {
+    padding-left: 25px;
+}
+
+.resources li {
+    margin-bottom: 15px;
+}
+
+.resources a {
+    color: blue;
+}
+
+/* Footer */
+footer {
+    background: #12395d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.last-modified {
+    color: gold;
+    font-size: .9rem;
+}
