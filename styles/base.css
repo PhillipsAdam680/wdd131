@@ -1,5 +1,4 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 
 * {
     margin: 0;
@@ -8,9 +7,10 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     background: #f4f4f4;
     color: #222;
+font-size: 20px;
 }
 
 /* Main container */
