@@ -13,7 +13,6 @@ body {
 font-size: 20px;
 }
 
-/* Main container */
 main {
     width: 1000px;
     margin: 20px auto;
@@ -22,7 +21,6 @@ main h1{
     text-align: center;
 }
 
-/* Header */
 header {
     background: #12395d;
     color: white;
@@ -35,7 +33,6 @@ header h1 {
     font-weight: 400;
 }
 
-/* Navigation */
 nav {
     background: #222;
 }
@@ -58,7 +55,7 @@ nav a:hover {
     background: #444;
 }
 
-/* Page title */
+
 h2 {
     text-align: center;
     margin: 30px 0;
@@ -66,7 +63,6 @@ h2 {
     font-weight: 400;
 }
 
-/* Two-column layout */
 .content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -74,7 +70,7 @@ h2 {
     align-items: start;
 }
 
-/* Cards */
+
 .card {
     background: white;
     border: 1px solid #bbb;
@@ -90,7 +86,7 @@ h2 {
     font-size: 30px;
 }
 
-/* About section */
+
 .about {
     display: flex;
     padding: 20px;
@@ -102,7 +98,7 @@ h2 {
     height: auto;
 }
 
-/* Country section */
+
 .state {
     display: flex;
     padding: 20px;
@@ -121,7 +117,7 @@ h2 {
     font-size: 22px;
 }
 
-/* Resources */
+
 .resources {
     padding: 20px;
 }
@@ -138,7 +134,7 @@ h2 {
     color: blue;
 }
 
-/* Footer */
+
 footer {
     background: #12395d;
     color: white;
