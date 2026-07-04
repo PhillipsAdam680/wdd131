@@ -82,11 +82,12 @@ h2 {
     overflow: hidden;
 }
 
-.card h3 {
+.card h2 {
     background: #12395d;
     color: white;
     text-align: center;
     padding: 12px;
+    font-size: 30px;
 }
 
 /* About section */
@@ -102,19 +103,19 @@ h2 {
 }
 
 /* Country section */
-.country {
+.state {
     display: flex;
     padding: 20px;
     gap: 20px;
     align-items: center;
 }
 
-.country img {
+.state img {
     width: 150px;
     border: 1px solid #999;
 }
 
-.country h4 {
+.state h3 {
     text-align: center;
     margin-bottom: 15px;
     font-size: 22px;
