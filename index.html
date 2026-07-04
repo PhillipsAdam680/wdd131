@@ -8,10 +8,13 @@
     <meta name="description" content="This is Adam Phillips's BYU-Idaho WDD 131 course home page">
     <meta name="author" content="Adam Phillips">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals
+        </h1>
         <nav>
         <ul>
             <li><a href="https://www.linkedin.com/">linkedin</a></li>
@@ -24,28 +27,29 @@
 
     <main>
     <h1>Adam Phillips</h1>
- <section class="card">
+<div class="content">
+    
+    <section class="card">
                 <h3>About Me</h3>
                 <div class="about">
                     <div>
                         <p>
-                            Hello! My name is Your Name. I am currently taking WDD 131 at
-                            BYU-Idaho. I enjoy learning web development, programming,
-                            playing video games, and spending time with family and friends.
+                            Hi, My name is Adam Phillps and I am from Lehi, Utah. I am currently taking WDD 131 at
+                            BYU-Idaho.  I love to watch movies and build with Legos!  I also enjoy being with my family and love
+                            playing board games and going on lots of trips 
                         </p>
                     </div>
                     <img src="images/profile.jpg" alt="Profile picture">
                 </div>
                 <div class="country">
-                    <img src="images/flag.png" alt="Country Flag">
+                    <img src="images/Utah_Flag_CMYK-1980928401.png" alt="Utah Flag">
                     <div>
                         <h4>Utah</h4>
                         <p>
-                            Utah is located in the United States and is known for
-                            its diverse geography, national parks, and technological
-                            innovation. It consists of 50 states and has a rich cultural
-                            history.
-                        </p>
+                            Utah is located in the United States is known for its arch rock formations towards the south
+                            and great skiing in the north. It is a very dry
+                            climate being in the west and the weather varies from being snowy to sunny. But it offers
+                            stunning views of the Rocky mountians with beautfil sunsets and sunrises.
                     </div>
                 </div>
             </section>
@@ -65,12 +69,17 @@
                 </div>
             </aside>
         </div>
+</div>
     </main>
 
         </main>
         <footer>
 
-            <p>©2026 Adam Phillips | Utah</p>
+            <p>
+            &copy;
+                <span id="currentyear"></span>
+                Adam Phillips | Utah
+            </p>
 
             <p class="last-modified">
             Last Modification:
