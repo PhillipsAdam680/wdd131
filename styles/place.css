@@ -1,0 +1,46 @@
+:root{
+    --blue: #12395d;
+    --white: white;
+    --gray: #eeeeee;
+}
+
+body{
+    margin:0;
+    font-family: "Josefin Sans", sans-serif;
+    background:var(--gray);
+}
+
+header{
+    background:var(--blue);
+    color:var(--white);
+    text-align:center;
+    padding:20px;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+}
+
+h2{
+    text-align:center;
+}
+
+.weather-icon{
+    display:block;
+    width:60px;
+    margin:auto;
+}
+
+footer{
+    background:var(--blue);
+    color:white;
+    text-align:center;
+    padding:15px;
+}
