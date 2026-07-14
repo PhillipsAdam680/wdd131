@@ -1,5 +1,5 @@
 :root{
-    --blue: #12395d;
+    --navyblue: #12395d;
     --white: white;
     --gray: #eeeeee;
 }
@@ -39,8 +39,13 @@ h2{
 }
 
 footer{
-    background:var(--blue);
+    background:var(--navyblue);
     color:white;
     text-align:center;
     padding:15px;
+}
+
+.last-modified {
+    color: gold;
+    font-size: .9rem;
 }
