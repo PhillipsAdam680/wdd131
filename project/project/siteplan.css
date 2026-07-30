@@ -24,6 +24,10 @@ h2 {
     color: #D01012;
 }
 
+header h2 {
+    color:white;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
