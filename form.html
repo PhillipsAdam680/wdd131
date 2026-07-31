@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Adam Phillips's BYU-Idaho WDD 131 Product review web page">
+    <meta name="author" content="Adam Phillips">
+    <title>Product Review Form</title>
+
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/form.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>Product Review Form</h1>
+</header>
+
+<main>
+
+<form action="review.html" method="get">
+
+<!-- Product Name -->
+
+<label for="product">Product Name *</label>
+
+<select id="product" name="product" required>
+<option value="">Choose a Product</option>
+</select>
+
+<!-- Rating -->
+
+<fieldset>
+
+<legend>Overall Rating *</legend>
+
+<label>
+<input type="radio" name="rating" value="1" required>
+⭐
+</label>
+
+<label>
+<input type="radio" name="rating" value="2">
+⭐⭐
+</label>
+
+<label>
+<input type="radio" name="rating" value="3">
+⭐⭐⭐
+</label>
+
+<label>
+<input type="radio" name="rating" value="4">
+⭐⭐⭐⭐
+</label>
+
+<label>
+<input type="radio" name="rating" value="5">
+⭐⭐⭐⭐⭐
+</label>
+
+</fieldset>
+
+<!-- Installation Date -->
+
+<label for="date">Date of Installation *</label>
+
+<input
+type="date"
+id="date"
+name="date"
+required>
+
+<!-- Useful Features -->
+
+<fieldset>
+
+<legend>Useful Features</legend>
+
+<label>
+<input type="checkbox" name="features" value="Durability">
+Durability
+</label>
+
+<label>
+<input type="checkbox" name="features" value="Ease of Use">
+Ease of Use
+</label>
+
+<label>
+<input type="checkbox" name="features" value="Performance">
+Performance
+</label>
+
+<label>
+<input type="checkbox" name="features" value="Design">
+Design
+</label>
+
+</fieldset>
+
+<!-- Written Review -->
+
+<label for="review">
+Written Review
+</label>
+
+<textarea
+id="review"
+name="review"
+rows="6">
+</textarea>
+
+<!-- Username -->
+
+<label for="username">
+Your Name
+</label>
+
+<input
+type="text"
+id="username"
+name="username">
+
+<input type="submit" value="Submit Review">
+
+</form>
+
+</main>
+
+<footer>
+
+<p>
+&copy;
+<span id="year"></span>
+|
+Adam Phillips
+</p>
+
+    <p class="last-modified">
+    <span id="lastModified"></span>
+    </p>
+
+</footer>
+
+</body>
+</html>
