@@ -73,3 +73,25 @@ color:white;
     color: gold;
     font-size: .9rem;
 }
+
+@media screen and (min-width: 768px) {
+
+    main {
+        max-width: 700px;
+        margin: 2rem auto;
+    }
+
+    form {
+        gap: 1.5rem;
+    }
+
+    fieldset {
+        padding: 1.5rem;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 1rem;
+    }
+}
