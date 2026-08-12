@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Adam Phillips final project webpage for WDD131 which is a lego informational website">
+    <meta name="author" content="Adam Phillips">
+
+    <title>Brick Explorer | Home</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="project/lego.css">
+
+    <!-- JavaScript -->
+    <script src="project/lego.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>Brick Explorer</h1>
+    </div>
+
+    <button id="menu-button" aria-label="Open Navigation">
+        ☰
+    </button>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="themes.html">LEGO Themes</a></li>
+            <li><a href="beginner.html">Beginner Guide</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- Hero Banner -->
+
+    <section class="hero">
+
+        <img src="images/hero.jpg"
+             alt="Colorful collection of LEGO bricks and minifigures">
+
+        <div class="hero-text">
+            <h2>Discover the World of LEGO</h2>
+
+            <p>
+                Whether you are new to LEGO or a lifelong builder,
+                Brick Explorer helps you discover themes, building tips,
+                and collecting advice.
+            </p>
+
+            <a href="themes.html" class="button">
+                Explore Themes
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Welcome -->
+
+    <section class="welcome">
+
+        <h2>Welcome to Brick Explorer</h2>
+
+        <p>
+            LEGO has inspired creativity for generations by allowing
+            people of all ages to build anything they can imagine.
+            From exciting adventures in Star Wars to realistic vehicles,
+            fantasy worlds, and impressive architecture, there is a LEGO
+            theme for everyone.
+        </p>
+
+        <p>
+            This website was created to help new builders learn about
+            LEGO while also giving experienced fans useful information
+            about popular themes and collecting.
+        </p>
+
+    </section>
+
+    <!-- History -->
+
+    <section class="history">
+
+        <h2>A Brief History of LEGO</h2>
+
+        <p>
+            The LEGO Group was founded in Denmark in 1932.
+            Since then, LEGO has become one of the world's
+            most recognizable toy brands. Millions of builders
+            enjoy creating everything from simple houses to
+            detailed models made from thousands of bricks.
+        </p>
+
+    </section>
+
+    <!-- Featured Themes -->
+
+    <section class="featured">
+
+        <h2>Featured LEGO Themes</h2>
+
+        <div class="card-container">
+
+            <article class="card">
+
+                <img src="images/starwars.jpg"
+                     alt="LEGO Star Wars set">
+
+                <h3>Star Wars</h3>
+
+                <p>
+                    Build iconic ships, famous battles,
+                    and favorite characters from the Star Wars galaxy.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <img src="images/ninjago.jpg"
+                     alt="LEGO Ninjago set">
+
+                <h3>Ninjago</h3>
+
+                <p>
+                    Join the ninja heroes in exciting adventures
+                    with dragons, temples, and giant mechs.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <img src="images/city.jpg"
+                     alt="LEGO City set">
+
+                <h3>City</h3>
+
+                <p>
+                    Explore everyday life with police stations,
+                    fire departments, trains, and construction vehicles.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- Why LEGO -->
+
+    <section class="benefits">
+
+        <h2>Why Build LEGO?</h2>
+
+        <div class="benefit-grid">
+
+            <div>
+
+                <h3>Creativity</h3>
+
+                <p>
+                    LEGO encourages builders to use imagination
+                    while following instructions or creating
+                    original designs.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Problem Solving</h3>
+
+                <p>
+                    Building helps develop planning,
+                    patience, and critical thinking skills.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Collection</h3>
+
+                <p>
+                    Many people enjoy displaying their
+                    completed sets and collecting favorite themes.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Theme of the Month -->
+
+    <section class="theme-month">
+
+        <h2>Theme of the Month</h2>
+
+        <p id="theme-display">
+            Loading...
+        </p>
+
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="cta">
+
+        <h2>Ready to Learn More?</h2>
+
+        <p>
+            Visit our LEGO Themes page to discover
+            which theme is right for you.
+        </p>
+
+        <a href="themes.html" class="button">
+            View All Themes
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+        | Adam Phillips | WDD 131 Project
+    </p>
+
+    <p id="lastModified"></p>
+    <p>
+    <a href="references.html" class="footer-link">
+        References & Sources
+     </a>
+    </p>
+
+</footer>
+
+</body>
+</html>
